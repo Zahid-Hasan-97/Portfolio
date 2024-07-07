@@ -168,5 +168,7 @@ main section{
 
 }
 
-.skill-description{
+
+.resume-container{
+    display: flex;
 }
