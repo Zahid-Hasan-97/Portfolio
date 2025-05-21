@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import "tailwindcss";
+@plugin "daisyui";
+
+@theme {
+    --font-nunito: 'Nunito', 'sans-serif'
+}
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-20%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.fade-in-left {
+    animation: fadeInLeft 0.7s ease-in-out 0.5s both;
+}
+
+html {
+    scroll-behavior: smooth;
+}
