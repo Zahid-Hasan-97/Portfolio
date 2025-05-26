@@ -27,7 +27,7 @@ const Banner = () => {
                 </div>
 
                 <div className=' flex self-start ml-22 gap-10 pt-12 '>
-                    <button className=' box-border bg-[linear-gradient(145deg,_#e2e8ec,_#ffffff)] shadow-[5px_5px_15px_#D1D9E6,_-5px_-5px_15px_#ffffff] dark:bg-[linear-gradient(145deg,_#1e2024,_#23272b)] dark:shadow-[10px_10px_19px_#1c1e22,_-10px_-10px_19px_#262a2e] transition-all duration-[400ms] ease-in-out flex rounded-xl  hover:-translate-y-2.5 items-center justify-center gap-2 align-baseline p-3.5 '>Get in touch</button>
+                    <a href='#contact' className=' box-border bg-[linear-gradient(145deg,_#e2e8ec,_#ffffff)] shadow-[5px_5px_15px_#D1D9E6,_-5px_-5px_15px_#ffffff] dark:bg-[linear-gradient(145deg,_#1e2024,_#23272b)] dark:shadow-[10px_10px_19px_#1c1e22,_-10px_-10px_19px_#262a2e] transition-all duration-[400ms] ease-in-out flex rounded-xl  hover:-translate-y-2.5 items-center justify-center gap-2 align-baseline p-3.5 '>Get in touch</a>
                     <button className='box-border bg-[linear-gradient(145deg,_#e2e8ec,_#ffffff)] shadow-[5px_5px_15px_#D1D9E6,_-5px_-5px_15px_#ffffff] dark:bg-[linear-gradient(145deg,_#1e2024,_#23272b)] dark:shadow-[10px_10px_19px_#1c1e22,_-10px_-10px_19px_#262a2e] transition-all duration-[400ms] ease-in-out flex rounded-xl  hover:-translate-y-2.5 items-center justify-center gap-2 align-baseline p-3.5'>Download Resume</button>
 
 
@@ -60,6 +60,10 @@ const Banner = () => {
                 </div>
                 <img className='absolute -top-8 w-3/5 mx-auto' src='https://i.ibb.co.com/xqrLq0yK/Adobe-Express-file.png' alt='Photo'
                 />
+                {/* <div className='transform rotate-45 absolute w-96 h-96 box-border bg-[linear-gradient(145deg,_#e2e8ec,_#ffffff)] shadow-[5px_5px_15px_#D1D9E6,_-5px_-5px_15px_#ffffff] dark:bg-[linear-gradient(145deg,_#1e2024,_#23272b)] dark:shadow-[10px_10px_19px_#1c1e22,_-10px_-10px_19px_#262a2e] transition-all duration-[400ms] ease-in-out flex rounded-xl overflow-hidden'>
+                    <img className='transform -rotate-45 w-full  mx-auto' src='https://i.ibb.co.com/xqrLq0yK/Adobe-Express-file.png' alt='Photo'
+                    />
+                </div> */}
             </div>
         </section>
 

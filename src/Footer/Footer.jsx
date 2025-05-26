@@ -3,16 +3,16 @@ import { FaFacebook, FaGithub, FaLinkedin } from 'react-icons/fa';
 
 const Footer = () => {
     return (
-        <div class="text-center">
-            <a href="#" class="flex items-center justify-center mb-5 text-2xl font-semibold text-gray-900">
+        <div id='footer' class="text-center pb-20">
+            <a href="#" class="flex items-center justify-center mb-5 text-2xl font-semibold text-gray-900 dark:text-[#C4CFDE]">
                 <img src="" class="h-12 mr-3 sm:h-9" alt="" />
                 Zahid Hasan
             </a>
 
             <nav class="flex justify-center flex-wrap gap-6 text-gray-500 font-medium">
-                <a class="hover:text-gray-900" href="#">About</a>
+                <a class="hover:text-gray-900" href="#aboutMe">About</a>
                 <a class="hover:text-gray-900" href="#">Resume</a>
-                <a class="hover:text-gray-900" href="#">Contact</a>
+                <a class="hover:text-gray-900" href="#contact">Contact</a>
             </nav>
 
 
