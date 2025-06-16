@@ -1,13 +1,68 @@
 import { useEffect } from "react";
 
-const ParticlesBackground = () => {
+const ParticlesBackground = ({ darkMode }) => {
     useEffect(() => {
         if (window.particlesJS) {
-            window.particlesJS.load("particles-js", "/particles.json", () => {
-                console.log("Particles config loaded");
-            });
+            const config = {
+                particles: {
+                    number: {
+                        value: 100,
+                        density: {
+                            enable: true,
+                            value_area: 800
+                        }
+                    },
+                    color: {
+                        value: darkMode ? "#ffffff" : "#000000"
+                    },
+                    shape: {
+                        type: "circle"
+                    },
+                    opacity: {
+                        value: 0.3
+                    },
+                    size: {
+                        value: 2
+                    },
+                    line_linked: {
+                        enable: false,
+                        distance: 150,
+                        color: darkMode ? "#ffffff" : "#000000",
+                        opacity: 0.4,
+                        width: 1
+                    },
+                    move: {
+                        enable: true,
+                        speed: 2
+                    }
+                },
+                interactivity: {
+                    detect_on: "canvas",
+                    events: {
+                        onhover: {
+                            enable: true,
+                            mode: "repulse"
+                        },
+                        onclick: {
+                            enable: true,
+                            mode: "push"
+                        }
+                    },
+                    modes: {
+                        repulse: {
+                            distance: 100
+                        },
+                        push: {
+                            particles_nb: 4
+                        }
+                    }
+                },
+                retina_detect: true
+            };
+
+            window.particlesJS("particles-js", config);
         }
-    }, []);
+    }, [darkMode]);
 
     return (
         <div

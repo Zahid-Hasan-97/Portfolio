@@ -16,7 +16,7 @@ const Home = () => {
         <div className={`${darkMode ? 'dark' : ''}`}>
             <div id='home' className="relative min-h-screen bg-[#ECF0F3] dark:bg-[#212428] text-black dark:text-white transition-colors duration-300">
                 <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
-                <ParticlesBackground />
+                <ParticlesBackground darkMode={darkMode} />
                 <Banner />
                 <AboutMe></AboutMe>
                 <Skill_Education></Skill_Education>

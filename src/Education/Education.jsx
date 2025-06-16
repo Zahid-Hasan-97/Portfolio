@@ -5,10 +5,10 @@ const Education = () => {
     return (
         <div
             id='education'
-            className="scroll-mt-20 px-4 flex flex-col justify-center items-center my-12  transition-colors duration-300"
+            className="scroll-mt-20 px-4 flex flex-col justify-center items-center my-6  transition-colors duration-300 mb-80 md:mb-120"
         >
             <div className='pb-12 text-center'>
-                <h1 className='text-4xl sm:text-5xl font-bold text-slate-700 dark:text-slate-300'>
+                <h1 className='text-4xl sm:text-5xl font-bold text-[#3C3E41] dark:text-slate-300'>
                     My Education
                 </h1>
             </div>
