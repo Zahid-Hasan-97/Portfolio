@@ -1,7 +1,7 @@
 import React from 'react';
 import Marquee from 'react-fast-marquee';
 
-const skill = `box-border bg-[linear-gradient(145deg,_#e2e8ec,_#ffffff)] shadow-[5px_5px_15px_#D1D9E6,_-5px_-5px_15px_#ffffff] dark:bg-[linear-gradient(145deg,_#1e2024,_#23272b)] dark:shadow-[10px_10px_19px_#1c1e22,_-10px_-10px_19px_#262a2e] transition-all duration-[400ms] ease-in-out flex rounded-xl  hover:-translate-y-2.5 items-center justify-center gap-2 align-baseline p-3.5`
+const skill = `box-border bg-[linear-gradient(145deg,_#e2e8ec,_#ffffff)] shadow-[5px_5px_15px_#D1D9E6,_-5px_-5px_15px_#ffffff] dark:bg-[linear-gradient(145deg,_#1e2024,_#23272b)] dark:shadow-[10px_10px_19px_#1c1e22,_-10px_-10px_19px_#262a2e] transition-all duration-[400ms] ease-in-out flex rounded-xl  hover:-translate-y-2.5 items-center justify-center gap-2 align-baseline p-3.5 z-1`
 
 const skill_border = `h-3.5 overflow-hidden rounded-full bg-[#DCE1E4]  dark:shadow-[inset_8px_8px_16px_rgba(0,0,0,0.46),_inset_-8px_-8px_16px_rgba(56,62,69,0.46)] flex items-center px-0.5 relative`
 
@@ -205,15 +205,25 @@ const Skills = () => {
             <div className='flex flex-col items-center gap-10'>
                 <h1 className='text-2xl text-[#3C3E41] dark:text-[#c4cfde] font-bold'>Dev Tools & Others</h1>
                 <Marquee>
-                    <div className='flex w-12 gap-2 md:gap-17' >
-                        <img src="https://i.ibb.co.com/gLKxpt3V/Vercel.png" alt="" />
-                        <img src="https://i.ibb.co.com/nqBfMPyX/Surge-Photoroom.png" alt="" />
-                        <img src="https://i.ibb.co.com/hxYhcTWq/Netlify.png" alt="" />
+                    {/* <div className='flex items-center justify-center w-12 gap-0.5 md:gap-17' >
                         <img src="https://i.ibb.co.com/HpPkk0QJ/Visual-Studio-Code-VS-Code.png" alt="" />
                         <img src="https://i.ibb.co.com/ch7RkjRn/Figma.png" alt="" />
                         <img src="https://i.ibb.co.com/tMbzR7qH/Pixso.png" alt="" />
                         <img src="https://i.ibb.co.com/7df4h664/Py-Charm-3.png" alt="" />
                         <img src="https://i.ibb.co.com/cSm6rW8r/JWT.png" alt="" />
+                        <img src="https://i.ibb.co.com/gLKxpt3V/Vercel.png" alt="" />
+                        <img src="https://i.ibb.co.com/nqBfMPyX/Surge-Photoroom.png" alt="" />
+                        <img src="https://i.ibb.co.com/hxYhcTWq/Netlify.png" alt="" />
+                    </div> */}
+                    <div className='flex items-center gap-4 px-4 md:gap-20'>
+                        <img className='h-12 w-auto' src="https://i.ibb.co.com/gLKxpt3V/Vercel.png" alt="Vercel" />
+                        <img className='h-12 w-auto' src="https://i.ibb.co.com/nqBfMPyX/Surge-Photoroom.png" alt="Surge" />
+                        <img className='h-12 w-auto' src="https://i.ibb.co.com/hxYhcTWq/Netlify.png" alt="Netlify" />
+                        <img className='h-12 w-auto' src="https://i.ibb.co.com/HpPkk0QJ/Visual-Studio-Code-VS-Code.png" alt="VS Code" />
+                        <img className='h-12 w-auto' src="https://i.ibb.co.com/ch7RkjRn/Figma.png" alt="Figma" />
+                        <img className='h-12 w-auto' src="https://i.ibb.co.com/tMbzR7qH/Pixso.png" alt="Pixso" />
+                        <img className='h-12 w-auto' src="https://i.ibb.co.com/7df4h664/Py-Charm-3.png" alt="PyCharm" />
+                        <img className='h-12 w-auto' src="https://i.ibb.co.com/cSm6rW8r/JWT.png" alt="JWT" />
                     </div>
                 </Marquee>
 

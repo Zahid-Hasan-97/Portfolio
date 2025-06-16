@@ -6,7 +6,7 @@ AOS.init();
 const AboutMe = () => {
     return (
         <div id='aboutMe' className=' scroll-mt-24 md:scroll-mt-28 max-w-screen-xl flex flex-col items-center justify-center md:mt-28 mx-auto'>
-            <h1 className='text-5xl text-[#3C3E41] dark:text-[#c4cfde] font-bold pb-12 md:pb-14'>About Me</h1>
+            <h1 className='text-4xl md:text-5xl text-[#3C3E41] dark:text-[#c4cfde] font-bold pb-12 md:pb-14'>About Me</h1>
 
             <div className=' flex flex-col md:flex-row items-center justify-center gap-5'>
                 <div data-aos="fade-down"

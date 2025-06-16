@@ -6,7 +6,7 @@ const ParticlesBackground = ({ darkMode }) => {
             const config = {
                 particles: {
                     number: {
-                        value: 100,
+                        value: 80,
                         density: {
                             enable: true,
                             value_area: 800
@@ -33,7 +33,7 @@ const ParticlesBackground = ({ darkMode }) => {
                     },
                     move: {
                         enable: true,
-                        speed: 2
+                        speed: 1
                     }
                 },
                 interactivity: {

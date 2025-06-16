@@ -11,7 +11,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
 
 
     return (
-        <nav className=" max-w-screen-xl mx-3 md:mx-auto sticky md:sticky top-0 z-50 lg:px-16 px-4 flex items-center py-4 box-border bg-[linear-gradient(145deg,_#e2e8ec,_#ffffff)] shadow-[5px_5px_15px_#D1D9E6,_-5px_-5px_15px_#ffffff] md:bg-[linear-gradient(145deg,_#e2e8ec,_#ffffff)] md:shadow-[5px_5px_15px_#D1D9E6,_-5px_-5px_15px_#ffffff] dark:bg-[linear-gradient(145deg,_#1e2024,_#23272b)] dark:shadow-[10px_10px_19px_#1c1e22,_-10px_-10px_19px_#262a2e] transition-all duration-[400ms] ease-in-out   justify-center gap-2 align-baseline p-3.5 rounded-xl">
+        <nav className=" max-w-screen-xl mx-3 md:mx-auto sticky md:sticky top-0 z-50 md:px-16 px-4 flex items-center py-4 box-border bg-[linear-gradient(145deg,_#e2e8ec,_#ffffff)] shadow-[5px_5px_15px_#D1D9E6,_-5px_-5px_15px_#ffffff] md:bg-[linear-gradient(145deg,_#e2e8ec,_#ffffff)] md:shadow-[5px_5px_15px_#D1D9E6,_-5px_-5px_15px_#ffffff] dark:bg-[linear-gradient(145deg,_#1e2024,_#23272b)] dark:shadow-[10px_10px_19px_#1c1e22,_-10px_-10px_19px_#262a2e] transition-all duration-[400ms] ease-in-out   justify-center gap-2 align-baseline p-3.5 rounded-xl">
             <div className="flex-1 flex justify-between items-center">
                 <img data-aos="fade-left"
                     data-aos-duration="3000"

@@ -30,13 +30,13 @@ const Banner = () => {
 
                 </div>
 
-                <div className=' flex md:self-start md:ml-22 gap-10 pt-12 '>
+                <div className=' z-1 flex md:self-start md:ml-22 gap-10 pt-12 '>
                     <a href='#contact' className={btn} >Get in touch</a>
-                    <button className={btn}>Download Resume</button>
+                    <a href="/public/Zahid_Hasan_Resume.pdf" download="ZahidHasanFrontendResume.pdf" className={btn}>Download Resume</a>
                 </div>
 
-                <div className='w-full'>
-                    <ul class="flex pt-12 space-x-7 justify-center md:justify-self-start md:ml-22">
+                <div className='w-full z-1'>
+                    <ul className="flex pt-12 space-x-7 justify-center md:justify-self-start md:ml-22">
                         <li className={social}>
                             <a href="https://www.facebook.com/zahid.hasan2797/"><SlSocialFacebook className='text-2xl' /></a>
                         </li>
